@@ -1,0 +1,66 @@
+.conteiner_down {
+
+    position: absolute; 
+    display: flex;
+    /*Внутренние элементы в строку*/
+    flex-direction: column;
+     /*Выравнивание по цетру внутренних элементов*/
+    justify-content: center;
+    /*Выравнивание по высоте внутренних элементов*/
+    align-items: center;
+    white-space: nowrap;
+    height: auto;
+    width: auto;
+    bottom: 3%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    bottom: 3%;
+    z-index: 3;
+
+}
+
+.conteiner_down p{
+
+    font-size: 20px;
+ 
+}
+
+.down {
+
+    max-width: 50px;
+    max-height: auto;
+
+}
+
+@media only screen and (max-width: 1250px) {
+    
+    .conteiner_down p{
+    
+        font-size: 16px;
+     
+    }
+    
+     .down {
+    
+        max-width: 32px;
+        max-height: auto;
+    
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    
+    .conteiner_down p{
+    
+        font-size: 12px;
+     
+    }
+    
+     .down {
+    
+        max-width: 25px;
+        max-height: auto;
+    
+    }
+}

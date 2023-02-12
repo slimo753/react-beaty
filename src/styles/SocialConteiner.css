@@ -1,0 +1,10 @@
+.conteiner_social {
+
+    display: flex;
+    /*Внутренние элементы в строку*/
+    flex-direction: row;
+    /*Выравнивание по высоте внутренних элементов*/
+    align-items: center;
+    white-space: nowrap;
+
+}
