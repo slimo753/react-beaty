@@ -1,0 +1,133 @@
+.conteiner_text_content {
+
+    height: 80%;
+    width: 90%;
+}
+
+.conteiner_text_name {
+
+    font-size: 120px;
+    -webkit-text-stroke: 3px rgb(195, 190, 190);
+    color: rgba(244,246,245,0.0);
+    white-space: nowrap;
+    margin-bottom: 20px;
+
+    transform: translate(0%, 5%);
+    opacity: 0;
+    transition: all 1s ease 0s;
+}
+
+.conteiner_text_name.active {
+
+    transform: translate(0%, 0%);
+    opacity: 1;
+}
+
+.conteiner_text_title {
+
+    font-size: 35px;
+    white-space: nowrap;
+    margin-bottom: 20px;
+
+    transform: translate(0%, 5%);
+    opacity: 0;
+    transition: all 1s ease 0.5s;
+}
+
+.conteiner_text_title.active {
+
+    transform: translate(0%, 0%);
+    opacity: 1;
+}
+
+.conteiner_text_text {
+
+    font-size: 25px;
+    margin-bottom: 20px;
+
+    transform: translate(0%, 5%);
+    opacity: 0;
+    transition: all 1s ease 1s;
+}
+
+.conteiner_text_text.active {
+
+    transform: translate(0%, 0%);
+    opacity: 1;
+}
+
+@media only screen and (max-width: 1250px) {
+
+    .conteiner_text_name {
+
+        font-size: 80px;
+        -webkit-text-stroke: 3px rgb(195, 190, 190);
+        color: rgba(244,246,245,0.0);
+        white-space: nowrap;
+        margin-bottom: 20px;
+    
+        transform: translate(0%, 5%);
+        opacity: 0;
+        transition: all 1s ease 0s;
+    }
+    
+    .conteiner_text_name.active {
+        
+        transform: translate(0%, 0%);
+        opacity: 1;
+    }
+    
+    .conteiner_text_title {
+    
+        font-size: 22px;
+        white-space: nowrap;
+        margin-bottom: 20px;
+    
+        transform: translate(0%, 5%);
+        opacity: 0;
+        transition: all 1s ease 0.5s;
+    }
+    
+    .conteiner_text_title.active {
+        
+        transform: translate(0%, 0%);
+        opacity: 1;
+    }
+    
+    .conteiner_text_text {
+    
+        font-size: 20px;
+    
+        transform: translate(0%, 5%);
+        opacity: 0;
+        transition: all 1s ease 1s;
+    }
+    
+    .conteiner_text_text.active {
+        
+        transform: translate(0%, 0%);
+        opacity: 1;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+
+    .conteiner_text_name {
+
+        font-size: 60px;
+        -webkit-text-stroke: 3px rgb(195, 190, 190);
+        color: rgba(244,246,245,0.0);
+        white-space: nowrap;
+        margin-bottom: 20px;
+    
+        transform: translate(0%, 5%);
+        opacity: 0;
+        transition: all 1s ease 0s;
+    }
+    
+    .conteiner_text_name.active {
+        
+        transform: translate(0%, 0%);
+        opacity: 1;
+    }
+}

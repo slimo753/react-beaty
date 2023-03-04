@@ -1,0 +1,159 @@
+.conteiner_vector {
+
+    height: 80vh;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2;
+}
+
+.conteiner_vector_string {
+
+    height: 33.333%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.string_conteiner {
+
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.vector_right {
+
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+    height: 50%;
+    width: auto;
+}
+
+.vector_left {
+
+    position: absolute;
+    bottom: 10%;
+    right: 0;
+    height: 60%;
+    width: auto;
+}
+
+.left_1 {
+
+    opacity: 0;
+    transform: translate(0%, 5%);
+    transition: all 1s ease 0s;
+}
+
+.left_1.active {
+
+    opacity: 1;
+    transform: translate(0%, 0%);
+}
+
+.right_1 {
+
+    opacity: 0;
+    transform: translate(0%, 5%);
+    transition: all 1s ease 1s;
+
+}
+
+.right_1.active {
+
+    opacity: 1;
+    transform: translate(0%, 0%);
+}
+
+.right_2 {
+
+    opacity: 0;
+    transform: translate(0%, 5%);
+    transition: all 1s ease 2s;
+
+}
+
+.right_2.active {
+
+    opacity: 1;
+    transform: translate(0%, 0%);
+}
+
+.left_2 {
+
+    opacity: 0;
+    transform: translate(0%, 5%);
+    transition: all 1s ease 3s;
+}
+
+.left_2.active {
+
+    opacity: 1;
+    transform: translate(0%, 0%);
+}
+
+.left_3 {
+
+    opacity: 0;
+    transform: translate(0%, 5%);
+    transition: all 1s ease 4s;
+}
+
+.left_3.active {
+
+    opacity: 1;
+    transform: translate(0%, 0%);
+}
+
+
+@media only screen and (max-width: 700px) {
+
+    .string_conteiner {
+
+        height: 90%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .vector_right {
+
+        position: absolute;
+        bottom: 10%;
+        left: 0;
+        height: 0%;
+        width: auto;
+    }
+
+    .vector_left {
+
+        position: absolute;
+        bottom: 10%;
+        left: 0;
+        height: 0%;
+        width: auto;
+    }
+
+    .left_2 {
+
+        width: 0%;
+    }
+    
+    .right_3 {
+
+        width: 0%;
+    }
+
+    .right_1 {
+
+        width: 0%;
+    }
+}

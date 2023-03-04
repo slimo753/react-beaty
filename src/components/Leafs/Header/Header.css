@@ -1,0 +1,29 @@
+.conteiner_header {
+
+    position: absolute;
+    height: 10vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 5;
+}
+
+@media only screen and (max-width: 700px) {
+
+    .conteiner_header {
+
+        position: absolute;
+        height: 13vh;
+        width: 100vw;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 5;
+    }
+
+}

@@ -1,0 +1,24 @@
+.conteiner_img {
+
+    height: 80%;
+    width: 90%;
+}
+
+.conteiner_img_img{
+    
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    z-index: 3;
+    border-radius: 10px;
+
+    transition: all 1s ease 1s;
+    transform: translate(0%, 5%);
+    opacity: 0;
+}
+
+.conteiner_img_img.active{
+
+    transform: translate(0%, 0%);
+    opacity: 1;
+}
